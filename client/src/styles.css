@@ -1,0 +1,16 @@
+:root{
+  --bg: #f7fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent: #2563eb;
+}
+body{ background:var(--bg); color:var(--text); font-family: Inter, system-ui, sans-serif; margin:0;}
+.header{ display:flex; justify-content:space-between; align-items:center; padding:16px 24px; background:transparent;}
+.brand{ font-weight:700; font-size:1.25rem; color:var(--accent); text-decoration:none;}
+.main{ padding:24px; max-width:1100px; margin:0 auto;}
+.card{ background:var(--card); padding:16px; border-radius:12px; box-shadow:0 6px 18px rgba(15,23,42,0.06); }
+.grid{ display:grid; grid-template-columns: 1fr 320px; gap:16px; align-items:start; }
+input, select, textarea{ width:100%; padding:8px 10px; border-radius:8px; border:1px solid #e6eef8; }
+button{ background:var(--accent); color:white; padding:8px 12px; border-radius:8px; border:none; cursor:pointer;}
+.muted{ color:var(--muted); font-size:0.9rem;}
